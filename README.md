@@ -8,9 +8,6 @@
     <a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html">
         <img alt="license" src="https://img.shields.io/badge/license-AGPL--3-blue.svg?style=flat"></img>
     </a>
-    <a href="https://github.com/Alliantum/odoo_private_products/releases/latest">
-        <img alt="module version" src="https://img.shields.io/github/v/tag/Alliantum/odoo_private_products?color=blue&label=version&style=flat">
-    </a>
 </div>
 
 <div align="center">
