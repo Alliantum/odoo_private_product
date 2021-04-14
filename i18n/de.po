@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-21 10:14+0000\n"
-"PO-Revision-Date: 2020-12-21 10:14+0000\n"
+"POT-Creation-Date: 2021-04-14 07:29+0000\n"
+"PO-Revision-Date: 2021-04-14 07:29+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -115,8 +115,8 @@ msgid "You must first select a partner."
 msgstr "Sie müssen zunächst einen Partner auswählen."
 
 #. module: odoo_private_products
-#: code:addons/odoo_private_products/models/account_invoice.py:20
-#: code:addons/odoo_private_products/models/sale_order.py:21
+#: code:addons/odoo_private_products/models/account_invoice.py:19
+#: code:addons/odoo_private_products/models/sale_order.py:20
 #, python-format
 msgid "{} is a private product, and can just be sold to {}{}"
 msgstr "{} ist ein privates Produkt und darf nicht an {}{} verkauft werden"
