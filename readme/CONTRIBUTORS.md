@@ -1,0 +1,2 @@
+- David Moreno <david.moreno@opensolutions.net>
+- Iago Alonso <iago.alonso@opensolutions.net>
