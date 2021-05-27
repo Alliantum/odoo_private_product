@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from odoo import fields, models
 
 
@@ -8,4 +6,4 @@ class ResPartner(models.Model):
 
     # Products that are attached to a partner, and thus, can be purchased
     restricted_product_ids = fields.Many2many('product.product', string="Private Products")
-    brand_partner = fields.Boolean('Brand Partner')
+    brand_partner = fields.Boolean()
