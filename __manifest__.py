@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name': "Brand Partner Products",
     'summary': """Restricted (private) products for Customers""",
@@ -10,10 +9,13 @@
     'version': '12.0.1.0.0',
     'license': 'AGPL-3',
     'category': 'Inventory',
-    'depends': ['base', 'product', 'sale', 'odoo_invoice_addresses'],
+    'depends': ['base', 'product', 'sale'],
     'data': [
         'views/product_template.xml',
         'views/product_variant_view.xml',
         'views/res_partner.xml',
-    ]
+    ],
+    'auto_install': False,
+    'application': False,
+    'installable': True,
 }
