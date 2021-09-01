@@ -1,2 +1,2 @@
-- David Moreno <david.moreno@opensolutions.net>
-- Iago Alonso <iago.alonso@opensolutions.net>
+- David Moreno <david.moreno@alliantum.com>
+- Iago Alonso <iago.alonso@alliantum.com>
