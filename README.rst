@@ -20,7 +20,7 @@ Brand Partner Products
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://shields.io/badge/Alliantum%2fodoo_private_product-24c3f3?style=for-the-badge&logo=github&label=github
-    :target: https://github.com/Alliantum/odoo_private_product/tree/master/odoo_private_product
+    :target: https://github.com/Alliantum/odoo_private_product/tree/master
     :alt: Alliantum/odoo_private_product
 
 |badge1| |badge2| |badge3| 
