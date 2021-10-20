@@ -5,7 +5,6 @@ from odoo.exceptions import ValidationError
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
 
-    @api.multi
     @api.onchange('partner_id')
     def onchange_partner_id(self):
         """If there are private products added, check that the partner is attached to them,
@@ -25,7 +24,6 @@ class SaleOrder(models.Model):
 class SaleOrderLine(models.Model):
     _inherit = 'sale.order.line'
 
-    @api.multi
     @api.onchange('product_id')
     def product_id_change(self):
         """If the product is private, check that it is attached to the selected partner,
