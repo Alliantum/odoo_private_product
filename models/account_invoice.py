@@ -3,7 +3,7 @@ from odoo.exceptions import ValidationError
 
 
 class AccountInvoice(models.Model):
-    _inherit = 'account.invoice'
+    _inherit = 'account.move'
 
     @api.onchange('partner_id', 'company_id')
     def _onchange_partner_id(self):
@@ -22,7 +22,7 @@ class AccountInvoice(models.Model):
 
 
 class AccountInvoiceLine(models.Model):
-    _inherit = 'account.invoice.line'
+    _inherit = 'account.move.line'
 
     @api.onchange('product_id')
     def _onchange_product_id(self):

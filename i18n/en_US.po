@@ -57,12 +57,12 @@ msgid "If some contacts are attached to the current product, then this could be 
 msgstr ""
 
 #. module: odoo_private_products
-#: model:ir.model,name:odoo_private_products.model_account_invoice
+#: model:ir.model,name:odoo_private_products.model_account_move
 msgid "Invoice"
 msgstr ""
 
 #. module: odoo_private_products
-#: model:ir.model,name:odoo_private_products.model_account_invoice_line
+#: model:ir.model,name:odoo_private_products.model_account_move_line
 msgid "Invoice Line"
 msgstr ""
 
