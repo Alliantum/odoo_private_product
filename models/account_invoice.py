@@ -11,7 +11,7 @@ class AccountInvoice(models.Model):
         otherwise display an error mentioning the partners that are attached to those products"""
         errors = []
         for line in self.invoice_line_ids.filtered(lambda r: len(r.product_id.restricted_partner_ids) >= 1):
-            if line.invoice_id.partner_id not in line.product_id.restricted_partner_ids:
+            if line.move_id.partner_id not in line.product_id.restricted_partner_ids:
                 limited_partners = line.product_id.restricted_partner_ids
                 more = (_(' and {} more').format(str(len(limited_partners) - 1)) if len(limited_partners) > 1 else '')
                 errors.append(_("{} is a private product, and can just be sold to {}{}").
@@ -29,6 +29,6 @@ class AccountInvoiceLine(models.Model):
         """If the product is private, check that it is attached to the selected partner,
         otherwise display an error"""
         res = super(AccountInvoiceLine, self)._onchange_product_id()
-        if self.product_id.restricted_partner_ids and self.invoice_id.partner_id not in self.product_id.restricted_partner_ids:
-            raise ValidationError(_("{} is a private product, and can't be sold to {}").format(self.product_id.name, self.invoice_id.partner_id.name))
+        if self.product_id.restricted_partner_ids and self.move_id.partner_id not in self.product_id.restricted_partner_ids:
+            raise ValidationError(_("{} is a private product, and can't be sold to {}").format(self.product_id.name, self.move_id.partner_id.name))
         return res

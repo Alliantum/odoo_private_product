@@ -6,7 +6,7 @@
     """,
     'author': "Alliantum",
     'website': "https://www.alliantum.com",
-    'version': '14.0.1.0.2',
+    'version': '14.0.1.0.3',
     'license': 'AGPL-3',
     'category': 'Inventory',
     'depends': ['base', 'product', 'sale'],
